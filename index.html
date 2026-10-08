@@ -3,27 +3,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Política de Privacidade da plataforma Aura, mantida pela Filmaro Corp.">
-  <meta name="color-scheme" content="light dark">
-  <meta name="theme-color" content="#6755d9">
+  <meta name="description" content="Política de Privacidade da plataforma Aura, mantida pela FILMARO INOVA SIMPLES (I.S.).">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#3dedf9">
+  <link rel="icon" type="image/png" href="assets/aura-mark.png">
   <title>Política de Privacidade | Aura</title>
   <style>
     :root {
-      color-scheme: light;
-      --page: #f6f7fc;
-      --surface: #ffffff;
-      --surface-soft: #f0f1fb;
-      --ink: #1d2130;
-      --muted: #61677b;
-      --line: #dfe2ee;
-      --accent: #6755d9;
-      --accent-strong: #4e3fbb;
-      --accent-soft: #eeeaff;
-      --cyan: #48b8c4;
-      --focus: #e34f83;
-      --shadow: 0 18px 48px rgba(40, 35, 89, .10);
-      --radius-lg: 28px;
-      --radius-md: 18px;
+      color-scheme: dark;
+      --page: #030722;
+      --surface: #0c1a2e;
+      --surface-soft: #10243c;
+      --ink: #eaf7ff;
+      --muted: #a7bdd6;
+      --line: rgba(154, 220, 255, .18);
+      --accent: #3dedf9;
+      --accent-strong: #3dedf9;
+      --accent-soft: #183459;
+      --cyan: #22f2f2;
+      --focus: #3dedf9;
+      --shadow: none;
+      --radius-lg: 24px;
+      --radius-md: 16px;
       --content: 1180px;
     }
 
@@ -38,10 +39,7 @@
       margin: 0;
       min-width: 0;
       overflow-wrap: anywhere;
-      background:
-        radial-gradient(circle at 10% 5%, rgba(103, 85, 217, .12), transparent 28rem),
-        radial-gradient(circle at 92% 12%, rgba(72, 184, 196, .12), transparent 24rem),
-        var(--page);
+      background: var(--page);
       color: var(--ink);
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       font-size: 16px;
@@ -67,8 +65,8 @@
       transform: translateY(-160%);
       padding: 10px 16px;
       border-radius: 999px;
-      background: var(--ink);
-      color: #fff;
+      background: var(--accent-soft);
+      color: var(--ink);
       font-weight: 700;
       transition: transform .2s ease;
     }
@@ -95,24 +93,13 @@
       letter-spacing: -.02em;
     }
 
-    .brand-mark {
-      display: grid;
-      width: 40px;
-      height: 40px;
-      place-items: center;
-      border-radius: 13px;
-      background: linear-gradient(135deg, var(--accent), var(--cyan));
-      color: #fff;
-      box-shadow: 0 8px 22px rgba(103, 85, 217, .26);
-      font-size: 1rem;
-      font-weight: 900;
-    }
+    .brand-mark { width: 44px; height: 44px; object-fit: contain; }
 
     .header-link {
       padding: 8px 14px;
       border: 1px solid var(--line);
       border-radius: 999px;
-      background: rgba(255, 255, 255, .75);
+      background: var(--surface);
       color: var(--ink);
       text-decoration: none;
       font-size: .88rem;
@@ -126,23 +113,12 @@
       padding: clamp(34px, 6vw, 72px);
       position: relative;
       overflow: hidden;
-      border: 1px solid rgba(103, 85, 217, .14);
+      border: 1px solid var(--line);
       border-radius: var(--radius-lg);
-      background: linear-gradient(145deg, rgba(255,255,255,.98), rgba(240,241,251,.96));
+      background: var(--surface);
       box-shadow: var(--shadow);
     }
 
-    .hero::after {
-      content: "";
-      position: absolute;
-      width: 320px;
-      height: 320px;
-      right: -120px;
-      top: -150px;
-      border-radius: 50%;
-      background: linear-gradient(135deg, rgba(103,85,217,.22), rgba(72,184,196,.18));
-      filter: blur(2px);
-    }
 
     .eyebrow {
       margin: 0 0 16px;
@@ -158,8 +134,8 @@
     h1 {
       max-width: 780px;
       margin: 0;
-      font-size: clamp(2.35rem, 6vw, 5rem);
-      font-weight: 840;
+      font-size: clamp(2.2rem, 5vw, 4rem);
+      font-weight: 750;
     }
 
     .hero-summary {
@@ -182,7 +158,7 @@
       padding: 8px 13px;
       border: 1px solid var(--line);
       border-radius: 999px;
-      background: rgba(255, 255, 255, .82);
+      background: var(--surface);
       color: var(--muted);
       font-size: .84rem;
       font-weight: 650;
@@ -198,8 +174,8 @@
 
     .toc, .policy-section, .notice {
       border: 1px solid var(--line);
-      background: rgba(255, 255, 255, .90);
-      box-shadow: 0 10px 32px rgba(40, 35, 89, .05);
+      background: var(--surface);
+      box-shadow: none;
     }
 
     .toc {
@@ -320,8 +296,8 @@
       margin: 26px 0 0;
       padding: 24px;
       border-radius: 17px;
-      background: linear-gradient(135deg, var(--accent-soft), rgba(72,184,196,.10));
-      border: 1px solid rgba(103,85,217,.18);
+      background: var(--accent-soft);
+      border: 1px solid var(--line);
     }
 
     .highlight p { color: var(--ink); }
@@ -351,8 +327,8 @@
       height: 38px;
       place-items: center;
       border-radius: 12px;
-      background: var(--accent);
-      color: #fff;
+      background: var(--accent-soft);
+      color: var(--ink);
       font-weight: 800;
     }
 
@@ -365,12 +341,14 @@
       margin-top: 24px;
       padding: 22px;
       border-radius: 18px;
-      background: var(--ink);
-      color: #fff;
+      background: var(--accent-soft);
+      color: var(--ink);
     }
 
     .contact-box p { margin: 0; color: rgba(255,255,255,.72); }
     .contact-box strong { color: #fff; }
+
+    .button:hover { background: #139df2; color: #fff; }
 
     .button {
       display: inline-flex;
@@ -379,8 +357,8 @@
       min-height: 44px;
       padding: 10px 17px;
       border-radius: 999px;
-      background: #fff;
-      color: var(--accent-strong);
+      background: #1675f2;
+      color: #fff;
       font-weight: 800;
       text-decoration: none;
     }
@@ -432,31 +410,14 @@
       }
     }
 
-    @media (prefers-color-scheme: dark) {
-      :root {
-        color-scheme: dark;
-        --page: #11131b;
-        --surface: #191c27;
-        --surface-soft: #222534;
-        --ink: #f3f2fa;
-        --muted: #b7bbca;
-        --line: #343849;
-        --accent: #a99df5;
-        --accent-strong: #c3baff;
-        --accent-soft: #2a2644;
-        --cyan: #65cbd4;
-        --focus: #ff81ad;
-        --shadow: 0 18px 48px rgba(0, 0, 0, .25);
-      }
-      body {
-        background:
-          radial-gradient(circle at 10% 5%, rgba(103, 85, 217, .16), transparent 28rem),
-          radial-gradient(circle at 92% 12%, rgba(72, 184, 196, .10), transparent 24rem),
-          var(--page);
-      }
-      .hero, .toc, .policy-section, .notice { background: rgba(25, 28, 39, .94); }
-      .header-link, .hero-meta li { background: rgba(25, 28, 39, .82); }
-      .button { background: var(--accent-soft); color: var(--accent-strong); }
+    @media print {
+      :root { color-scheme: light; --page: #fff; --surface: #fff; --surface-soft: #fff; --ink: #172132; --muted: #344256; --line: #ccd4de; --accent: #155591; --accent-strong: #155591; --accent-soft: #eef3f8; }
+      .site-header, .toc, .skip-link, .button { display: none; }
+      .hero, .layout { width: 100%; margin: 0 0 24px; }
+      .hero, .policy-section { padding: 20px; }
+      .layout { display: block; }
+      .content { gap: 16px; }
+      a { color: var(--ink); }
     }
   </style>
 </head>
@@ -465,10 +426,10 @@
 
   <header class="site-header" aria-label="Cabeçalho do site">
     <a class="brand" href="#topo" aria-label="Aura — início da política">
-      <span class="brand-mark" aria-hidden="true">A</span>
+      <img class="brand-mark" src="assets/aura-mark.png" width="44" height="44" alt="">
       <span>Aura</span>
     </a>
-    <a class="header-link" href="mailto:wudarski@filmaro.com.br">Canal de privacidade</a>
+    <a class="header-link" href="mailto:suporte@filmaro.com.br">Canal de privacidade</a>
   </header>
 
   <section class="hero" id="topo" aria-labelledby="titulo-principal">
@@ -479,8 +440,8 @@
       por que eles são necessários e como você pode exercer seus direitos.
     </p>
     <ul class="hero-meta" aria-label="Informações da política">
-      <li>Controladora: Filmaro Corp</li>
-      <li>Vigência: 23 de setembro de 2026</li>
+      <li>Controladora: FILMARO INOVA SIMPLES (I.S.)</li>
+      <li>Vigência: 8 de outubro de 2026</li>
       <li>Aplicável à plataforma Aura</li>
     </ul>
   </section>
@@ -513,18 +474,19 @@
         <span class="section-number">01 · Visão geral</span>
         <h2 id="visao-geral-titulo">Quem cuida dos seus dados</h2>
         <p>
-          A <strong>Filmaro Corp</strong> é a controladora dos dados pessoais tratados pela
+          A <strong>FILMARO INOVA SIMPLES (I.S.)</strong>, inscrita no CNPJ
+          sob o nº <strong>69.287.476/0001-51</strong>, é a controladora dos dados pessoais tratados pela
           plataforma Aura. Isso significa que definimos como e por que esses dados são
           utilizados para prestar o serviço.
         </p>
         <p>
-          Esta política se aplica ao site, à plataforma, à API e às integrações do Aura.
+          Esta política se aplica ao site, aos aplicativos para Android e iOS, à API e às integrações do Aura.
           Ao conectar sua conta, você também permanece sujeito às políticas da Meta e do
           Instagram nos serviços administrados por essas empresas.
         </p>
         <p>
           Dúvidas e solicitações de privacidade podem ser enviadas gratuitamente para
-          <a href="mailto:wudarski@filmaro.com.br">wudarski@filmaro.com.br</a>.
+          <a href="mailto:suporte@filmaro.com.br">suporte@filmaro.com.br</a>.
         </p>
       </section>
 
@@ -540,11 +502,11 @@
           </article>
           <article class="card">
             <h3>Conteúdo autorizado</h3>
-            <p>Publicações, links, imagens, datas, comentários, nomes públicos de autores, curtidas e métricas disponibilizadas pela API.</p>
+            <p>Publicações, links, imagens, datas, textos dos comentários, curtidas e métricas disponibilizadas pela API.</p>
           </article>
           <article class="card">
             <h3>Conta Aura</h3>
-            <p>Identificador interno, e-mail informado, estado de verificação, permissões e dados técnicos necessários para autenticação e sessão.</p>
+            <p>Identificador interno, e-mail informado, estado de verificação, dados de verificação temporários, permissões e dados técnicos necessários para autenticação e sessão.</p>
           </article>
           <article class="card">
             <h3>Análises</h3>
@@ -552,7 +514,7 @@
           </article>
           <article class="card">
             <h3>Planos e assinaturas</h3>
-            <p>Plano escolhido, situação da assinatura e identificadores necessários para criar, acompanhar ou cancelar a cobrança.</p>
+            <p>Plano escolhido, limites de uso, situação e período da assinatura, provedor, identificadores de compra e registros de pagamentos necessários para acompanhar ou cancelar assinaturas.</p>
           </article>
           <article class="card">
             <h3>Dados técnicos</h3>
@@ -561,7 +523,7 @@
         </div>
 
         <div class="highlight">
-          <p><strong>Pagamentos:</strong> o Aura não recebe nem armazena os dados completos do seu cartão. Essas informações são fornecidas diretamente ao Mercado Pago e tratadas conforme as regras do próprio provedor.</p>
+          <p><strong>Pagamentos:</strong> o Aura não recebe nem armazena os dados completos do seu cartão. Essas informações são fornecidas diretamente ao Mercado Pago e tratadas conforme a política de privacidade do provedor.</p>
         </div>
       </section>
 
@@ -575,6 +537,8 @@
           <li>produzir e apresentar análises de sentimento dos comentários;</li>
           <li>manter sua sessão, verificar seu e-mail e proteger sua conta;</li>
           <li>administrar planos, limites de uso, assinaturas e cancelamentos;</li>
+          <li>enviar códigos de verificação ao e-mail informado e, em compras pelo Mercado Pago,
+            utilizar o e-mail verificado como identificação do pagador;</li>
           <li>prestar suporte, diagnosticar falhas e melhorar a operação do serviço;</li>
           <li>prevenir fraude, abuso e incidentes de segurança;</li>
           <li>cumprir obrigações legais ou regulatórias.</li>
@@ -600,6 +564,11 @@
           que o Aura gere indicadores, agrupamentos e uma pontuação geral.
         </p>
         <p>
+          Enviamos à Groq o texto dos comentários para essa finalidade, sem incluir no pedido
+          seu e-mail, token de acesso ou dados de pagamento. O próprio comentário pode conter
+          informações pessoais escritas por seu autor; os textos não são previamente anonimizados.
+        </p>
+        <p>
           Resultados automatizados podem conter imprecisões, não captar ironia ou contexto
           e devem ser interpretados como apoio analítico. O Aura não usa essas análises para
           tomar decisões jurídicas, de crédito, financeiras, de emprego ou outras decisões
@@ -613,12 +582,13 @@
       <section class="policy-section" id="compartilhamento" aria-labelledby="compartilhamento-titulo">
         <span class="section-number">05 · Compartilhamento</span>
         <h2 id="compartilhamento-titulo">Com quem os dados podem ser compartilhados</h2>
-        <p>Usamos fornecedores somente quando eles são necessários para uma função da plataforma.</p>
+        <p>O compartilhamento depende do recurso utilizado e do ambiente de acesso.</p>
 
         <div class="provider-grid">
           <div class="provider"><strong>Meta/Instagram</strong><span>Autenticação, autorização e acesso ao conteúdo permitido por você.</span></div>
           <div class="provider"><strong>Groq</strong><span>Processamento dos comentários para classificação de sentimento por IA.</span></div>
           <div class="provider"><strong>Mercado Pago</strong><span>Criação, cobrança, acompanhamento e cancelamento de assinaturas.</span></div>
+          <div class="provider"><strong>Render e Neon</strong><span>Hospedagem da API e do banco de dados no ambiente de desenvolvimento e testes.</span></div>
           <div class="provider"><strong>Resend</strong><span>Envio de códigos de verificação e mensagens transacionais.</span></div>
           <div class="provider"><strong>Locaweb</strong><span>Infraestrutura de hospedagem da aplicação e do banco de dados.</span></div>
           <div class="provider"><strong>GitHub Pages</strong><span>Hospedagem pública desta página de privacidade.</span></div>
@@ -660,6 +630,13 @@
           incluindo controles de acesso, proteção de credenciais, restrição de privilégios,
           separação de configurações sensíveis e monitoramento operacional.
         </p>
+        <h3>Armazenamento da sessão no dispositivo</h3>
+        <p>
+          O site guarda informações de sessão no armazenamento local do navegador. O aplicativo
+          móvel utiliza o armazenamento seguro do sistema para manter tokens de sessão e dados
+          básicos do perfil. Isso permite reconhecer sua sessão quando você retorna ao Aura.
+          Sair da conta remove a sessão local, mas não exclui sua conta nem seu histórico no serviço.
+        </p>
         <p>
           Nenhum ambiente conectado à internet oferece risco zero. Se identificarmos um incidente
           que possa causar risco ou dano relevante, tomaremos as medidas cabíveis e realizaremos
@@ -678,10 +655,16 @@
           <article class="card"><h3>Restringir ou excluir</h3><p>Pedir anonimização, bloqueio ou eliminação nas hipóteses legais.</p></article>
           <article class="card"><h3>Ser informado</h3><p>Saber com quais entidades compartilhamos dados e para quais finalidades.</p></article>
           <article class="card"><h3>Revogar ou se opor</h3><p>Revogar consentimento ou se opor a tratamento irregular.</p></article>
+          <article class="card"><h3>Portar seus dados</h3><p>Solicitar portabilidade a outro fornecedor, observadas a regulamentação e as hipóteses aplicáveis.</p></article>
           <article class="card"><h3>Revisar automação</h3><p>Pedir explicações sobre critérios e revisão de tratamento automatizado aplicável.</p></article>
         </div>
 
         <p style="margin-top: 24px;">
+          Você também pode apresentar uma petição à
+          <a href="https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados">ANPD</a>
+          ou procurar os órgãos de defesa do consumidor, quando aplicável.
+        </p>
+        <p>
           Poderemos pedir informações adicionais estritamente necessárias para confirmar sua
           identidade e proteger seus dados. O exercício desses direitos pelo canal indicado é gratuito.
         </p>
@@ -693,12 +676,17 @@
         <p>Siga estas etapas para excluir sua conta e os dados associados ao Aura:</p>
 
         <ol class="steps">
-          <li><span><strong>Envie um e-mail</strong><br>Escreva para <a href="mailto:wudarski@filmaro.com.br?subject=Exclus%C3%A3o%20de%20dados%20%E2%80%94%20Aura">wudarski@filmaro.com.br</a> com o assunto “Exclusão de dados — Aura”.</span></li>
-          <li><span><strong>Identifique sua conta</strong><br>Informe o nome de usuário do Instagram e o e-mail associado à conta Aura. Não envie senha, código de acesso ou token.</span></li>
+          <li><span><strong>Envie um e-mail</strong><br>Escreva para <a href="mailto:suporte@filmaro.com.br?subject=Exclus%C3%A3o%20de%20dados%20%E2%80%94%20Aura">suporte@filmaro.com.br</a> com o assunto “Exclusão de dados — Aura”.</span></li>
+          <li><span><strong>Identifique sua conta</strong><br>Informe o nome de usuário do Instagram e o e-mail associado à conta Aura, se cadastrado. Não envie senha, código de acesso ou token.</span></li>
           <li><span><strong>Confirme a titularidade</strong><br>Podemos pedir informações adicionais estritamente necessárias para confirmar a identidade do solicitante.</span></li>
           <li><span><strong>Revogue a integração</strong><br>Para interromper novos acessos, remova o Aura na área de Aplicativos e sites das configurações da Meta/Instagram.</span></li>
         </ol>
 
+        <p>
+          Revogar a integração ou desinstalar o aplicativo não exclui automaticamente os dados
+          armazenados no Aura. Se você tiver uma assinatura, solicite também seu cancelamento
+          no Aura para interromper novas cobranças pelo Mercado Pago.
+        </p>
         <div class="highlight">
           <p>
             Após a verificação, eliminaremos ou anonimizaremos os dados abrangidos pela solicitação,
@@ -731,22 +719,22 @@
 
       <section class="policy-section" id="contato" aria-labelledby="contato-titulo">
         <span class="section-number">12 · Contato</span>
-        <h2 id="contato-titulo">Fale com a Filmaro Corp</h2>
+        <h2 id="contato-titulo">Fale com a FILMARO INOVA SIMPLES (I.S.)</h2>
         <p>
           Para dúvidas sobre esta política ou para exercer seus direitos de privacidade, use o
-          canal abaixo. Descreva sua solicitação com clareza e não envie senhas, tokens ou códigos.
+          mesmo canal de suporte do aplicativo, indicado abaixo. Descreva sua solicitação com clareza e não envie senhas, tokens ou códigos.
         </p>
         <div class="contact-box">
-          <p><strong>Canal de privacidade</strong><br>wudarski@filmaro.com.br</p>
-          <a class="button" href="mailto:wudarski@filmaro.com.br">Enviar e-mail</a>
+          <p><strong>Canal de privacidade</strong><br>suporte@filmaro.com.br</p>
+          <a class="button" href="mailto:suporte@filmaro.com.br">Enviar e-mail</a>
         </div>
       </section>
     </main>
   </div>
 
   <footer class="site-footer">
-    <p>© 2026 Filmaro Corp · Plataforma Aura</p>
-    <p>Política vigente desde 23 de setembro de 2026 · <a href="mailto:wudarski@filmaro.com.br">wudarski@filmaro.com.br</a></p>
+    <p>© 2026 FILMARO INOVA SIMPLES (I.S.) · Plataforma Aura</p>
+    <p>Política vigente desde 8 de outubro de 2026 · <a href="mailto:suporte@filmaro.com.br">suporte@filmaro.com.br</a></p>
   </footer>
 </body>
 </html>
