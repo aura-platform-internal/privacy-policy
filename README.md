@@ -1,6 +1,6 @@
 # Aura — Política de Privacidade
 
-Página pública da Política de Privacidade da plataforma Aura, mantida pela Filmaro Corp.
+Página pública da Política de Privacidade da plataforma Aura, mantida pela FILMARO INOVA SIMPLES (I.S.).
 
 ## Visualização local
 
@@ -45,9 +45,11 @@ Revise a política sempre que houver mudança nos dados tratados, nas finalidade
 - Dados e finalidades revisados a partir da API, do site e do aplicativo móvel.
 - Pagamentos e assinaturas descritos conforme o fluxo atual pelo Mercado Pago.
 - Sessão local, processamento de comentários pela Groq e instruções de exclusão esclarecidos.
-- Canal de privacidade preservado; suporte do aplicativo: `suporte@filmaro.com.br`.
+- Canal único de privacidade e suporte: `suporte@filmaro.com.br`.
 
 A página continua estática, sem scripts, fontes externas ou rastreadores.
 Antes de publicar novas revisões, confira os fornecedores efetivamente utilizados,
 os contatos e a identificação da controladora. O texto não define prazos de retenção
 que ainda não tenham sido estabelecidos operacionalmente.
+
+Identificação da controladora conforme comprovante fornecido: FILMARO INOVA SIMPLES (I.S.), CNPJ 69.287.476/0001-51.
