@@ -43,7 +43,7 @@ Revise a política sempre que houver mudança nos dados tratados, nas finalidade
 
 - Identidade visual alinhada à paleta e à logo atuais do Aura, com fonte do sistema e asset local.
 - Dados e finalidades revisados a partir da API, do site e do aplicativo móvel.
-- Compras Apple/Google e RevenueCat descritas conforme disponibilidade na versão do aplicativo.
+- Pagamentos e assinaturas descritos conforme o fluxo atual pelo Mercado Pago.
 - Sessão local, processamento de comentários pela Groq e instruções de exclusão esclarecidos.
 - Canal de privacidade preservado; suporte do aplicativo: `suporte@filmaro.com.br`.
 
