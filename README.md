@@ -37,3 +37,17 @@ O arquivo `CNAME` deve ser adicionado somente depois que o DNS estiver configura
 ## Manutenção
 
 Revise a política sempre que houver mudança nos dados tratados, nas finalidades, nos fornecedores, na retenção ou no canal de contato.
+
+
+## Revisão de 8 de outubro de 2026
+
+- Identidade visual alinhada à paleta e à logo atuais do Aura, com fonte do sistema e asset local.
+- Dados e finalidades revisados a partir da API, do site e do aplicativo móvel.
+- Compras Apple/Google e RevenueCat descritas conforme disponibilidade na versão do aplicativo.
+- Sessão local, processamento de comentários pela Groq e instruções de exclusão esclarecidos.
+- Canal de privacidade preservado; suporte do aplicativo: `suporte@filmaro.com.br`.
+
+A página continua estática, sem scripts, fontes externas ou rastreadores.
+Antes de publicar novas revisões, confira os fornecedores efetivamente utilizados,
+os contatos e a identificação da controladora. O texto não define prazos de retenção
+que ainda não tenham sido estabelecidos operacionalmente.
